@@ -1,0 +1,149 @@
+body {
+    background-color: #ae2012;
+    background-image: radial-gradient(circle,#ae2012,black);
+    font: 16px arial, sans-serif, Times;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.header {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: auto;
+}
+
+.judul {
+    color: #f7ede2;
+    font-weight: bold;
+    font-family: Times;
+    font-size: 28px;
+    display:table;
+    background-color:#ae2012;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+ul {
+    padding: 0%;
+    list-style: none;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button{
+    font-family: sans-serif;
+    font-size: 15px;
+    background: #ae2012;
+    color: #f7ede2;
+    border: white 0px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: -10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+    
+button:hover{
+    opacity: 1;
+    color: black;
+}
+
+.image {
+    height: 300px;
+    width: 800px;
+    background-image: url(../images/wallpaper-rog-strix.jpg);
+    background-position: center;
+    border-top: 3px solid #ae2012;
+    border-bottom: 3px solid #ae2012;
+}
+
+.isi{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: auto;
+}
+
+.isi-p1{
+    color: #f7ede2;
+    font-family: arial;
+    font-size: 10px;
+    display:table;
+    background-color:#ae2012;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -10px;
+    margin-right: 25px;
+}
+
+.isi-p1 a{
+    text-decoration: none;
+    color: white;
+}
+.isi-p1 a:hover{
+    opacity: 1;
+    color: black;
+}
+
+.isi-p2{
+    color: #f7ede2;
+    font-family: Arial;
+    font-size: 15px;
+    display:table;
+    background-color:#ae2012;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 25px;
+}
+.isi-p3{
+    color: #f7ede2;
+    font-family: Arial;
+    font-size: 15px;
+    display:table;
+    background-color:#ae2012;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -5px;
+    margin-right: 25px;
+}
+
+.judulisi {
+    color: #f7ede2;
+    font-family: Times;
+    font-size: 27px;
+    display:table;
+    background-color:#ae2012;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.footer{
+    height: 40px;
+    background-color: white;
+    border-top: 3px solid black;
+    border-bottom: 1px solid black;
+}
+
+.footer .copy{
+    text-align: center;
+    color: black;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.footer .copy:hover{
+    opacity: 2;
+    color: #ae2012;
+}

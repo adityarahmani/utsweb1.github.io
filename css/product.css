@@ -1,0 +1,120 @@
+body{
+    background-color: whitesmoke;
+    font: 16px arial, sans-serif, Times;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: #ae2012;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.header h2{
+    padding: 15px;
+    margin-top: -10px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.icon{
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    float: right;
+    margin-top: -10px;
+}
+
+.header p{
+    padding: 15px;
+    margin-top: -45px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    gap: 24px;
+    margin-top: 32px;
+}
+.portfolio-container .box {
+    position: relative;
+    height: 220px;
+    box-shadow: 3px 3px 3px rgb(79 165 142 / 45%);
+    overflow: hidden;
+    border-radius: 8px;
+}
+.portfolio-container .box .box-img {
+    width: 100%;
+    height: 100%;
+}
+.portfolio-container .box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portfolio-container .box .content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: -100%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgb(28,40,68,0.8);
+}
+.portfolio-container .box .content .bi{
+    color: #fff;
+    font-size: 21px;
+    border-radius: 5px;
+    padding: 0px 3px;
+    align-items: center;
+    background: #fff;
+    color: #3c7a6d;
+}
+.portfolio-container .box .content h3{
+    color: #fff;
+    font-size: 17.6px;
+    font-weight: 600;
+    margin: 5px;
+    align-items: center;
+}
+.portfolio-container .box:hover .content{
+    top: 0;
+    transition: 0.2s;
+}
+
+.footer{
+    height: 25px;
+    width: 100%;
+    background-color: #ae2012;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+
+.footer .copy{
+    text-align: center;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.footer .copy:hover{
+    opacity: 2;
+    color: black;
+}
